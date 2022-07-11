@@ -1,86 +1,89 @@
-body{
+.body{
 
-background-image:url("./images/im.png");
-/* border:40px solid black; */
-/* border-right:200px solid black; */
-/* padding-bottom:100px; */
-/* width:100vw; */
-background-repeat:no-repeat;
-
-}
-
-.f2{
-padding-left:650px;
-padding-top:100px;
-padding-right:100px;
+    background-image:url(/images/im.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:1000px;
+    background-color: black;
+    
 
 }
-label{
+.form {
+
+  width:60%;
+  border-radius:20px;
+  background-image: linear-gradient(to right, #50636a, #273c42);
+  opacity:0.9;
+  padding:10px 15px 10px 10px;
+  font-family:'Montserrat';
+}
+.form input{
 
 display: block;
-
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: bolder;
-}
-
-
-.f2 input {
-    width:100%;
-    height: 35px;
-    border-radius :7px;
-    background-color:rgb(233, 227, 227);
-   
-}
-fieldset{
-
-    width: 350px;;
-    background-color:gray;
-    opacity:50%;
-    border-radius: 20px;
-   
-}
-.p1{
-text-align: end;
-color: #fff;
-
-
+width:100%;
+height:40px;
+border-radius:10px;
+background-image: linear-gradient(to right, #50636a, #273c42);
+  opacity:0.9;
 
 }
-button{
-
-    width:100%; 
-    background-color: aquamarine;
-    height: 30px;
-    border-radius :10px;
-    font-weight:bolder;
-   
-}
-
 b{
-
-    color:#fff;
+    color: #fff;
+    font-family:'Montserrat';
 }
-.p2{
+.forgetpassword{
+
+    text-align: end;
+    color:rgb(219, 217, 217);
+    font-family:'Montserrat';
+}
+.logo{
 
     text-align: center;
-    color:black;
+    font-family:'Montserrat';
+    color:rgb(219, 217, 217);
 }
-p{
+.div{
 
-    color:#fff;
+    padding-left:720px;
+    padding-top:120px;
 }
-.p3{
+.button{
 
-font-size: 30px;;
-text-underline-offset: 10px;;
-text-decoration:underline;
-line-height:10px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:100%;
+    height:40px;
+    border-radius:10px;
+    background-color: aqua;
+    font-family:'Montserrat';
+    font-weight: bolder;
+}
+.h1{
+
+color: #fff;
+text-decoration: underline;
+text-underline-offset:10px;
+text-decoration-color:grey;
+font-family:'Montserrat';
+}
+
+.label{
+
+    color:rgb(207, 205, 205);
+    font-family:'Montserrat';
+}
+.h4{
+
+color:rgb(219, 217, 217);
+font-family:'iceland';
+border: 10px black;
+
 
 }
-.p4{
+::placeholder{
 
-font-size:20px;
-font-family: Arial, Helvetica, sans-serif;
-
+     
+    color:grey;
+    font-family: 'Montserrat';
+   font-size: 17px;
 }
