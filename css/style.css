@@ -1,100 +1,107 @@
-.body{
-
-    background-image:url(/images/im.png);
+.content {
+    background-image: url(/images/im.png);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-attachment: fixed;
-    background-size:1000px;
+    background-size: 1000px;
     background-color: black;
-    font-family:'montserrat';
-   
-    
-    
-
+    font-family: 'montserrat';
 }
-.form {
 
-  width:60%;
-  border-radius:20px;
-  background-image: linear-gradient(to right, #50636a, #273c42);
-  opacity:0.7;
-  padding-left:30px;
-  padding-top:10px;
-  padding-bottom:10px;
-  
-  
-  
+.container {
+    padding-left: 720px;
+    padding-top: 110px;
 }
-.form input{
 
-display: block;
-width:90%;
-height:40px;
-border-radius:5px;
-background-image: linear-gradient(to right, #50636a, #273c42);
-opacity:0.9;
-border: 0.1px solid white;
-
+.loginForm {
+    width: 60%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #50636a, #273c42);
+    opacity:10;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 40px;
 }
-b{
+
+.heading {
     color: #fff;
-    
+    text-decoration: underline 3px;
+    text-underline-offset: 10px;
+    text-decoration-color: #fff;
+    font-family: 'Iceland', cursive;
+    font-size: 50px;
+    padding-top: 10px;
+    -webkit-text-stroke:0.1px black;
+    font-weight: 900;
 }
-.forgetpassword{
 
-    padding-left:235px;
-    color:rgb(219, 217, 217);
-    font-size:12px;
+.subHeading {
+    color: rgb(219, 217, 217);
+    font-size: 20px;
+    padding-top: 15px;
 }
-.logo{
 
-    text-align: center;
-    color:rgb(219, 217, 217);
-    font-weight:lighter;
-    font-size:15px;
+.userName {
+    color: rgb(207, 205, 205);
+    font-size: 15px;
 }
-.div{
 
-    padding-left:720px;
-    padding-top:100px;
+.userNameInput {
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #50636a, #273c42);
+    opacity: 0.9;
+    border: 0.1px solid white;
 }
-.button{
 
-    width:90%;
-    height:42px;
-    border-radius:5px;
+.password {
+    color: rgb(207, 205, 205);
+    font-size: 15px;
+}
+
+.passwordInput {
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #50636a, #273c42);
+    opacity: 0.9;
+    border: 0.1px solid white;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: 'montserrat';
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.changePassword {
+    padding-left: 235px;
+    color: rgb(219, 217, 217);
+    font-size: 12px;
+}
+
+.loginButton {
+    width: 90%;
+    height: 42px;
+    border-radius: 5px;
     background-color: #A5D9D0;
     font-weight: bolder;
-}
-.heading{
-
-color: #fff;
-text-decoration: underline 3px;
-text-underline-offset:10px;
-text-decoration-color:#fff;
-font-family: 'Iceland', cursive;
-font-size:40px;
-
-
-
+    border: 0.1px solid rgb(5, 5, 5);
 }
 
-.label{
-
-    color:rgb(207, 205, 205);
-   font-size:15px;
+.bottomStatement {
+    text-align: center;
+    color: rgb(219, 217, 217);
+    font-weight: lighter;
+    font-size: 15px;
 }
-.subheading{
 
-color:rgb(219, 217, 217);
-font-size:20px;
-
-}
-::placeholder{
-
-     
-    color:#fff;
-    font-family:'montserrat';
-   font-size:15px;
-   padding-left:10px;
+.bottomStatementWord {
+    color: #fff;
+    font-weight:900;
 }
