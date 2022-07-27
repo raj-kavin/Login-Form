@@ -54,6 +54,7 @@
     border-radius: 5px;
     background-image: linear-gradient(to right, #50636a, #273c42);
     opacity: 0.9;
+    color:white;
     border: 0.1px solid white;
 }
 
@@ -70,6 +71,7 @@
     background-image: linear-gradient(to right, #50636a, #273c42);
     opacity: 0.9;
     border: 0.1px solid white;
+    color:white;
 }
 
 ::placeholder {
