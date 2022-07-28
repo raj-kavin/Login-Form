@@ -2,6 +2,7 @@
 
 Checkout the live website "https://login-kavin.netlify.app/"
 
-![Capture 2](https://user-images.githubusercontent.com/108740656/181289028-81d9d7bf-ecd1-44fe-904f-656d2debea66.PNG)
+![Login Form](https://user-images.githubusercontent.com/108740656/181485954-51a16883-71dc-4a8a-a684-5343e713c960.PNG)
+
 
 
